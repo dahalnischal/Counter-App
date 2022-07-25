@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.container{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:100vh;
+
+}
+.counter-div{
+	width: 400rem;
+	border: 1px solid greenyellow;
+	padding: 1rem;
+	background-color:darkgreen;
+	color: white;
+	text-align: center;
+	border-radius:30px ;
+}
+.counter-div> *{
+	margin-bottom: 2rem;
+}
+.count{
+	font-size: 4rem;
+}
+.buttons button{
+	padding: 1rem;
+	margin: 0 1rem;
+	border-radius: 1rem;
+	font-size: 1.5rem;
+	color: white;
+	font-weight: 700;
+	border: none;
+	outline: nons: 3px;
+}
+button.subtract{
+	background-color: orangered;
+
+}
+button.reset{
+	background-color: darkblue;
+	
+}button.add{
+	background-color: darkgrey;
+	
+}
